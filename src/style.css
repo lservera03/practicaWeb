@@ -1,0 +1,24 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    padding:10px;
+}
+
+section {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+}
+
+article {
+    padding:5px;
+    outline: thick solid red;
+}
+
+article p {
+    font-weight: bold;
+}

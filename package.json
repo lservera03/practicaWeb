@@ -1,0 +1,22 @@
+{
+  "name": "reload",
+  "version": "1.0.0",
+  "description": "nodemon + browser-reload",
+  "main": "app.js",
+  "scripts": {
+    "html-minifier": "html-minifier --input-dir src --output-dir dist --remove-comments --collapse-whitespace --minify-js true --minify-css true",
+    "start": "npm run html-minifier && node app.js",
+    "watch": "nodemon",
+    "browser-reload": "browser-sync start --proxy \"localhost:3000\" --files dist/*"
+  },
+  "author": "DEW",
+  "license": "MIT",
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "express": "^4.17.3"
+  }
+}

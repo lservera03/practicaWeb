@@ -1,0 +1,5 @@
+Use Git bash terminal
+
+first terminal:  npm run start
+
+second terminal:  npm run browser-reload

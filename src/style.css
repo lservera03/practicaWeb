@@ -16,7 +16,7 @@ section {
 
 article {
     padding:5px;
-    outline: thick solid blue;
+    outline: thick solid red;
 }
 
 article p {

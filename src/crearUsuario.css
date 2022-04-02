@@ -1,0 +1,45 @@
+body {
+    background-image: url("image/slide1-bg.jpg");
+    background-color: #cccccc;
+}
+.header{
+    display: flex;
+    border: 5px solid darkblue;
+}
+
+.Title{
+    text-align: center;
+}
+.text {
+    font-size: 15px;
+    font-weight: normal;
+}
+.formulario{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 5px solid darkblue;
+}
+.formulario_texto{
+    display: flex;
+    align-items: center;
+
+}
+
+footer{
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.socials{
+
+}
+
+/*https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html*/

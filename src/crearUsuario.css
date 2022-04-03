@@ -1,45 +1,119 @@
-body {
-    background-image: url("image/slide1-bg.jpg");
-    background-color: #cccccc;
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
-.header{
-    display: flex;
-    border: 5px solid darkblue;
+body {
+    background-color: white;
 }
 
-.Title{
-    text-align: center;
+.header {
+    display: flex;
+    height: 100px;
 }
+
+.Title {
+    text-align: center;
+    font-family: Time;
+    color: black;
+}
+
 .text {
     font-size: 15px;
     font-weight: normal;
 }
-.formulario{
+
+.formulario {
     display: flex;
     flex-flow: column;
     align-items: center;
-    border: 5px solid darkblue;
+    gap: 10px;
 }
-.formulario_texto{
+.topic{
+    color: white;
+}
+.formulario_texto {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
 
 }
 
-footer{
-    position: absolute;
+footer {
     background: #111;
-    height: auto;
-    width: 100vw;
-    color: #fff;
 }
-.footer-content{
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-}
-.socials{
 
+footer .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+
+.content a , p {
+    color: white;
+}
+
+footer .content p {
+    text-align: justify;
+}
+
+footer .content .lower .topic {
+    color: white;
+    margin: 24px 0 5px 0;
+}
+
+footer .content .lower i {
+    padding-right: 16px;
+}
+
+footer .content .right input[type="text"] {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+}
+
+footer .content .right input {
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #eb2f06;
+    border-radius: 5px;
+    margin-top: 12px;
+    border: 2px solid #eb2f06;
+}
+
+.content .right input[type="submit"]:hover {
+    background: none;
+    color: #eb2f06;
+}
+
+footer .bottom {
+    margin-left: 30px;
+    text-align: left;
+    color: #d9d9d9;
+}
+
+footer .bottom a {
+    color: #eb2f06;
+}
+
+
+
+footer a:hover {
+    color: #eb2f06;
+}
+
 
 /*https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html*/

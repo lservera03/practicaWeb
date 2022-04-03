@@ -4,56 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nodemon + browser-sync</title>
+    <title>Register</title>
     <link rel="stylesheet" href="crearUsuario.css">
 </head>
 <body>
 <header class="header">
-    <div >
-        <img src="image/logo.png" alt="Logo" >
+    <div>
+        <img src="image/logo.png" alt="Logo" width="100" height="150">
     </div>
 </header>
 <main>
-    <div class="Title">
+    <section class="Title">
         <h1>
             REGISTRATE
         </h1>
         <h2 class="text">
             Es rápido y fácil.
         </h2>
-    </div>
-    <div>
-        <form action="#" method="post" class="formulario">
-            <input type="text" name="nombredelacaja" placeholder="Nombre" required>
-            <input type="text" name="nombredelacaja" placeholder="Apellido" required>
-            <input type="text" name="nombredelacaja" placeholder="Correo electrónico" required>
-            <input type="text" name="nombredelacaja" placeholder="contraseña" required>
-            <input name="form" type="submit" value="Registrarte">
+    </section>
+    <section>
+        <form action="#" method="post" >
+            <div class="formulario">
+                <div><input type="text" name="nombredelacaja" placeholder="Nombre" required></div>
+                <div><input type="text" name="nombredelacaja" placeholder="Apellido" required></div>
+                <div><input type="text" name="nombredelacaja" placeholder="Correo electrónico" required></div>
+                <div><input type="password" name="nombredelacaja" placeholder="contraseña" required></div>
+                <div><input name="form" type="submit" value="Registrarte"></div>
+            </div>
             <div class="formulario_texto">
-                <div><h2 class="text">¿Ya tienes una cuenta?  </h2></div>
+                <div><h2 class="text">¿Ya tienes una cuenta? </h2></div>
                 <div><a href="login.html"> Iniciar sesión</a></div>
             </div>
         </form>
-    </div>
+    </section>
 </main>
 <footer>
-    <div class="footer-content">
-        <h3>Foolish Developer</h3>
-        <p>Foolish Developer ---  source code.</p>
-        <ul class="socials">
-            <img src="image/facebook.png" alt="facebook">
-        </ul>
+    <div class="content">
+        <div class="left box">
+            <div class="upper">
+                <div class="topic">About us</div>
+                <p>PONER TEXTO QUE QUEREMOS</p>
+            </div>
+            <div class="lower">
+                <div class="topic">Contact us</div>
+                <div class="phone">
+                    <a href="#"><i ></i>+007 9089 6767</a>
+                </div>
+                <div class="email">
+                    <a href="#"><i ></i>abc@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="right box">
+            <div class="topic">Subscribe us</div>
+            <form action="#">
+                <input type="text" placeholder="Enter email address">
+                <input type="submit" name="" value="Send">
+            </form>
+        </div>
     </div>
-    <div class="footer-bottom">
-        <p>copyright &copy;2021 <a href="#">foolishdeveloper</a>  </p>
-    </div>
-    <div class="footer-menu">
-        <ul class="f-menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Blog</a></li>
-        </ul>
+    <div class="bottom">
+        <p>Copyright © 2022 <a href="#">Pelican</a> All rights reserved</p>
     </div>
 </footer>
 </body>

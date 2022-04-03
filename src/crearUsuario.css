@@ -32,6 +32,9 @@ body {
 .topic{
     color: white;
 }
+.lower a{
+    color: white;
+}
 .formulario_texto {
     display: flex;
     align-items: center;
@@ -39,7 +42,6 @@ body {
     gap: 5px;
 
 }
-
 footer {
     background: #111;
 }
@@ -50,26 +52,20 @@ footer .content {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    color: white;
     justify-content: space-between;
 }
 
-
-.content a , p {
-    color: white;
-}
 
 footer .content p {
     text-align: justify;
 }
 
-footer .content .lower .topic {
-    color: white;
-    margin: 24px 0 5px 0;
-}
-
 footer .content .lower i {
+
     padding-right: 16px;
 }
+
 
 footer .content .right input[type="text"] {
     height: 45px;

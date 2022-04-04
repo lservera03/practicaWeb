@@ -7,8 +7,8 @@
     flex-flow: column;
     align-items: center;
 }
-input[type=text], input[type=password] {
-    width: 45%;
+.container input[type=text], input[type=password] {
+    width: 25%;
     padding: 15px;
     margin: 5px 0 22px 0;
     background: #f1f1f1;
@@ -29,19 +29,25 @@ hr {
     cursor: pointer;
     width: 20%;
 }
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: black;
+}
+.footer_section{
     color: white;
-    border: 5px solid red;
-}
-.bloquefooter{
     display: flex;
-    max-height: none;
-    flex-flow: column;
-    margin: auto;
-    border: 5px solid red;
+    justify-content: space-around;
+    align-items: center;
 }
+.footer_section a {
+    color: dodgerblue;
+}
+.bloquefooter input[type=text]{
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+

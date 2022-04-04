@@ -4,69 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Nodemon + browser-sync</title>
     <link rel="stylesheet" href="crearUsuario.css">
 </head>
 <body>
-<header class="header">
-    <div>
-        <img src="image/logo.png" alt="Logo" width="100" height="150">
-    </div>
+<header>
+
 </header>
 <main>
-    <section class="Title">
-        <h1>
-            REGISTRATE
-        </h1>
-        <h2 class="text">
-            Es rápido y fácil.
-        </h2>
+    <form action="#">
+        <div class="container">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <input type="text" placeholder="Enter Name" name="Name" id="name" required>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <p>By creating an account you agree to our <a class="link" href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container">
+            <p>Already have an account? <a class="link" href="#">Sign in</a>.</p>
+        </div>
+    </form>
+</main>
+<footer class="footer">
+    <section>
+        <div class="bloquefooter">
+            <div class="topic">About us</div>
+            <p>PONER TEXTO QUE QUEREMOS</p>
+        </div>
     </section>
     <section>
-        <form action="#" method="post" >
-            <div class="formulario">
-                <div><input type="text" name="nombredelacaja" placeholder="Nombre" required></div>
-                <div><input type="text" name="nombredelacaja" placeholder="Apellido" required></div>
-                <div><input type="text" name="nombredelacaja" placeholder="Correo electrónico" required></div>
-                <div><input type="password" name="nombredelacaja" placeholder="contraseña" required></div>
-                <div><input name="form" type="submit" value="Registrarte"></div>
-                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a> </p>
+        <div class="bloquefooter">
+            <div class="topic">Contact us</div>
+            <div>
+                <a href="#"><i></i>+007 9089 6767</a>
             </div>
-            <div class="formulario_texto">
-                <div><h2 class="text">¿Ya tienes una cuenta? </h2></div>
-                <div><a href="login.html"> Iniciar sesión</a></div>
-            </div>
-        </form>
-    </section>
-</main>
-<footer>
-    <div class="content">
-        <div class="left box">
-            <div class="upper">
-                <div class="topic">About us</div>
-                <p>PONER TEXTO QUE QUEREMOS</p>
-            </div>
-            <div class="lower">
-                <div class="topic">Contact us</div>
-                <div>
-                    <a href="#"><i ></i>+007 9089 6767</a>
-                </div>
-                <div>
-                    <a href="#"><i ></i>abc@gmail.com</a>
-                </div>
+            <div>
+                <a href="#"><i></i>abc@gmail.com</a>
             </div>
         </div>
-        <div class="right box">
+    </section>
+    <section>
+        <div class="bloquefooter">
             <div class="topic">Subscribe us</div>
             <form action="#">
                 <input type="text" placeholder="Enter email address">
                 <input type="submit" name="" value="Send">
             </form>
         </div>
-    </div>
-    <div class="bottom">
-        <p>Copyright © 2022 <a href="#">Pelican</a> All rights reserved</p>
-    </div>
+    </section>
 </footer>
 </body>
 </html>

@@ -1,115 +1,47 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    padding:0px;
+    margin:0px;
 }
-body {
-    background-color: white;
-}
-
-.header {
-    display: flex;
-    height: 100px;
-}
-
-.Title {
-    text-align: center;
-    font-family: Time;
-    color: black;
-}
-
-.text {
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.formulario {
+.container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 10px;
 }
-.topic{
+input[type=text], input[type=password] {
+    width: 45%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+.link {
+    color: dodgerblue;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registerbtn {
+    background-color: #04AA6D;
     color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
 }
-.lower a{
-    color: white;
-}
-.formulario_texto {
+.footer{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 5px;
-
-}
-footer {
-    background: #111;
-}
-
-footer .content {
-    max-width: 1350px;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
     justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
 }
-
-
-footer .content p {
-    text-align: justify;
+.bloquefooter{
+    display: flex;
+    max-height: none;
+    flex-flow: column;
+    margin: auto;
+    border: 5px solid red;
 }
-
-footer .content .lower i {
-
-    padding-right: 16px;
-}
-
-
-footer .content .right input[type="text"] {
-    height: 45px;
-    width: 100%;
-    outline: none;
-    color: #d9d9d9;
-    background: #000;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 17px;
-    border: 2px solid #222222;
-}
-
-footer .content .right input {
-    height: 42px;
-    width: 100%;
-    font-size: 18px;
-    color: #d9d9d9;
-    background: #eb2f06;
-    border-radius: 5px;
-    margin-top: 12px;
-    border: 2px solid #eb2f06;
-}
-
-.content .right input[type="submit"]:hover {
-    background: none;
-    color: #eb2f06;
-}
-
-footer .bottom {
-    margin-left: 30px;
-    text-align: left;
-    color: #d9d9d9;
-}
-
-footer .bottom a {
-    color: #eb2f06;
-}
-
-
-
-footer a:hover {
-    color: #eb2f06;
-}
-
-
-/*https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html*/

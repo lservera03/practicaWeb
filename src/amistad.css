@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+.footer_section{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_section a {
+    color: dodgerblue;
+}
+.bloquefooter input[type=text]{
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+
+#searcher{
+    margin-top: 15%;
+    margin-left: 1%;
+    width: 13%;
+    height: 10%;
+    display: flex;
+}
+
+
+#friendsList{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 25%;
+    height: 55%;
+}
+
+#userProfile{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 28%;
+    width: 40%;
+    height: 55%;
+}
+
+
+#petitionsList{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 70%;
+    width: 25%;
+    height: 55%;
+}
+
+#searcher input[type="image"]{
+    margin-top: 1%;
+    height: 30%;
+    width: 20%;
+    margin-left: 3%;
+}
+
+
+main div{
+    border: solid 1px;
+}

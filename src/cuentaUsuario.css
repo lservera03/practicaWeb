@@ -1,18 +1,52 @@
-footer{
+
+.site-identity {
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50%;
+    border: 1px solid black;
+    letter-spacing: 1.5px;
+}
+
+.site-navigation {
+    display: flex;
+    align-items: center;
+    gap: 45%;
+    font-size: 20PX;
+}
+.wrapper a {
+    text-decoration: none;
+    color: #000;
+}
+
+.image_header{
+    display: flex;
+}
+
+
+
+footer {
     bottom: 0;
     width: 100%;
     background-color: black;
 }
-.footer_section{
+
+.footer_section {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .footer_section a {
     color: dodgerblue;
 }
-.bloquefooter input[type=text]{
+
+.bloquefooter input[type=text] {
     width: 70%;
     padding: 5px;
     margin: 5px 0 22px 0;

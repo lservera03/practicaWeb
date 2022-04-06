@@ -59,3 +59,15 @@ footer{
     background: #f1f1f1;
     display: block;
 }
+
+
+#loginText{
+    margin-top: 1%;
+    margin-left: 45%;
+    margin-bottom: 3%;
+}
+
+#createText{
+    margin-top: 3%;
+    margin-left: 40%;
+}

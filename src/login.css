@@ -30,13 +30,14 @@ footer{
 #logo {
     width: 200px;
     height: 200px;
-    margin-left: 46%;
+    margin-left: 43%;
 
 }
 
 
 #loginForm {
-    margin-left: 45%;
+    margin-left: 43%;
+    margin-top: 3%;
 }
 
 #loginForm input {
@@ -51,14 +52,18 @@ footer{
     width: 20%;
     padding: 15px;
     margin: 10px 0 22px 45px;
-    background: #f1f1f1;
+    background: deepskyblue;
     display: block;
+    color: #f1f1f1;
+    border: none;
+    cursor: pointer;
 }
 
 #loginText{
     margin-top: 2%;
-    margin-left: 50%;
+    margin-left: 47%;
 }
 #createText{
+    margin-top: 2%;
     margin-left: 43%;
 }

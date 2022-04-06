@@ -28,20 +28,15 @@ footer{
 
 
 #logo {
-    width: 300px;
-    height: 300px;
-    margin-left: 650px;
-    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    margin-left: 46%;
+
 }
 
-#logo img {
-    width: 300px;
-    height: 300px;
-}
 
 #loginForm {
-    margin-top: 20px;
-    margin-left: 650px;
+    margin-left: 45%;
 }
 
 #loginForm input {
@@ -55,19 +50,15 @@ footer{
 #loginForm input[type="submit"] {
     width: 20%;
     padding: 15px;
-    margin: 5px 0 22px 45px;
+    margin: 10px 0 22px 45px;
     background: #f1f1f1;
     display: block;
 }
 
-
 #loginText{
-    margin-top: 1%;
-    margin-left: 45%;
-    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-left: 50%;
 }
-
 #createText{
-    margin-top: 3%;
-    margin-left: 40%;
+    margin-left: 43%;
 }

@@ -39,6 +39,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+margin-bottom: 2%;
 }
 .container input[type=text], input[type=password] {
     width: 25%;

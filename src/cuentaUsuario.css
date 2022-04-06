@@ -49,18 +49,34 @@
     margin-right: 15%;
     margin-bottom: 2%;
 }
-.info .title{
+
+.info .title {
     margin-left: 35%;
 }
-.info div{
+
+.info div {
     display: flex;
     gap: 2%;
 }
-.info .button{
-    margin-left: 37%;
+
+.info input[type=text] {
+    margin-left: 5%;
+    height: 10%;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
 
 }
-button{
+
+
+.info .button {
+    margin-left: 37%;
+}
+
+button {
     background-color: red;
     text-align: center;
     text-decoration: none;

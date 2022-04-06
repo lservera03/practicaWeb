@@ -2,46 +2,43 @@
     padding: 0px;
     margin: 0px;
 }
-header{
-    border: 1px solid black;
+.header{
+    display: flex;
+    gap: 20%;
+    height: 120px;
+    background-color: darkgray;
+
+
+}
+
+.logo_container{
     display: flex;
     align-items: center;
-}
-header nav, header div {
-    display: inline-block;
-    border-style: solid;
-}
 
-#logo img{
-    width: 100%;
-    height: 100%;
 }
-
-#logo{
-    width: 10%;
-    height: 10%;
+.logo_container img{
+    height: 120%;
 }
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 30%;
 
-header nav{
-    width: 60%;
-    height: 30%;
 }
-
-header nav li {
-    display: inline-block;
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
 }
-
-header img {
-    width: 100%;
-    height: 100%;
+.userMenu{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    gap: 30%;
 }
-
-#userMenu{
-    top: -10%;
-    width: 10%;
-    height: 100%;
+.userMenu img{
+    height: 40px;
 }
-
 #logout{
     width: 10%;
     height: 100%;

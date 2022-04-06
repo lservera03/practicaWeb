@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     gap: 20%;
     height: 120px;
@@ -7,41 +7,66 @@
 
 }
 
-.logo_container{
+.logo_container {
     display: flex;
     align-items: center;
 
 }
-.logo_container img{
+
+.logo_container img {
     height: 120%;
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
     gap: 30%;
 
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     font-size: 20px;
     color: #000;
 }
-.userMenu{
+
+.userMenu {
     display: flex;
     align-items: center;
     margin-left: 20%;
     gap: 30%;
 }
-.userMenu img{
+
+.userMenu img {
     height: 40px;
 }
 
-.info{
+.info {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+.info .title{
+    margin-left: 35%;
+}
+.info div{
+    display: flex;
+    gap: 2%;
+}
+.info .button{
+    margin-left: 37%;
 
 }
-
+button{
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 
 footer {
@@ -49,15 +74,18 @@ footer {
     width: 100%;
     background-color: black;
 }
+
 .footer_section {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .footer_section a {
     color: dodgerblue;
 }
+
 .bloquefooter input[type=text] {
     width: 70%;
     padding: 5px;

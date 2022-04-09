@@ -44,10 +44,14 @@
     flex-direction: column;
     align-items: center;
 }
+.info label{
+    width: 50px;
+}
 form{
     margin-top: 2%;
 }
 .button{
+
     margin-top: 2%;
 }
 
@@ -58,16 +62,22 @@ form{
 form div{
     margin-top: 10%;
 }
+.info label[for=Email] {
+    margin-right: 3%;
+}
+.info label[for=Sexo] {
+    margin-right: 6%;
+}
 
 .info input[type=text] {
-    margin-left: 5%;
+    margin-left: 12%;
     height: 10%;
     padding: 5px;
     background: #f1f1f1;
 }
 
 ::placeholder {
-    color: black;
+    color: gray;
 }
 
 

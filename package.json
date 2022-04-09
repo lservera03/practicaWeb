@@ -4,8 +4,9 @@
   "description": "nodemon + browser-reload",
   "main": "app.js",
   "scripts": {
-    "html-minifier": "html-minifier --input-dir src --output-dir dist --remove-comments --collapse-whitespace --minify-js true --minify-css true",
-    "start": "npm run html-minifier && node app.js",
+    "html-minifier": "html-minifier --file-ext html --input-dir src --output-dir dist --remove-comments --collapse-whitespace --minify-js --minify-css",
+    "css-minifier": "html-minifier --file-ext css --input-dir src --output-dir dist --remove-comments --collapse-whitespace --minify-js --minify-css",
+    "start": "npm run css-minifier && html-minifier && node app.js",
     "watch": "nodemon",
     "browser-reload": "browser-sync start --proxy \"localhost:3000\" --files dist/*"
   },

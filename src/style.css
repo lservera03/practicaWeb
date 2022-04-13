@@ -3,28 +3,30 @@
     margin: 0px;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: black;
 }
-.footer_section{
+
+.footer_section {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .footer_section a {
     color: dodgerblue;
 }
-.bloquefooter input[type=text]{
+
+.bloquefooter input[type=text] {
     width: 70%;
     padding: 5px;
     margin: 5px 0 22px 0;
     background: #f1f1f1;
 }
-
 
 
 #logo {
@@ -59,11 +61,12 @@ footer{
     cursor: pointer;
 }
 
-#loginText{
+#loginText {
     margin-top: 2%;
     margin-left: 47%;
 }
-#createText{
+
+#createText {
     margin-top: 2%;
     margin-left: 43%;
 }

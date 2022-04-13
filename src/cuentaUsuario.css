@@ -2,113 +2,267 @@
     padding: 0px;
     margin: 0px;
 }
-.header {
-    display: flex;
-    gap: 20%;
-    height: 120px;
-    background-color: darkgray;
-}
-.logo_container {
-    display: flex;
-    align-items: center;
-}
-.logo_container img {
-    height: 120%;
+
+@media only screen and (max-width: 1200px) {
+    /**
+    HEADER ****************************************
+     */
+    .header {
+        display: flex;
+        height: 120px;
+        background-color: darkgray;
+    }
+
+    .logo_container {
+        display: flex;
+        align-items: center;
+    }
+
+    .image_logo{
+        height: 150px;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+        gap: 20%;
+    }
+
+    .navigation a {
+        margin-left: 50%;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .userMenu {
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+        gap: 30%;
+    }
+
+    .userMenu img {
+        height: 40px;
+    }
+
+    /**
+    MAIN ****************************************
+     */
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info label {
+        width: 50px;
+    }
+
+    form {
+        margin-top: 2%;
+    }
+
+    .button {
+
+        margin-top: 2%;
+    }
+
+    .info div {
+        display: flex;
+        gap: 2%;
+    }
+
+    form div {
+        margin-top: 10%;
+    }
+
+    .info label[for=Email] {
+        margin-right: 3%;
+    }
+
+    .info label[for=Sexo] {
+        margin-right: 6%;
+    }
+
+    .info input[type=text] {
+        margin-left: 12%;
+        height: 10%;
+        padding: 5px;
+        background: #f1f1f1;
+    }
+
+    ::placeholder {
+        color: gray;
+    }
+
+
+    button {
+        background-color: red;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    /**
+    FOOTER ****************************************
+     */
+    footer {
+        margin-top: 5%;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    .footer_section {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 35%;
+    }
+
+    .footer_section a {
+        color: dodgerblue;
+    }
+
+    .bloquefooter input[type=text] {
+        width: 30%;
+        padding: 5px;
+        margin: 5px 0 22px 0;
+        background: #f1f1f1;
+    }
 }
 
-.navigation {
-    display: flex;
-    align-items: center;
-    gap: 30%;
-}
+@media only screen and (min-width: 1200px) {
+    /**
+   HEADER ****************************************
+    */
+    .header {
+        display: flex;
+        gap: 20%;
+        height: 120px;
+        background-color: darkgray;
+    }
 
-.navigation a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #000;
-}
+    .logo_container {
+        display: flex;
+        align-items: center;
+    }
 
-.userMenu {
-    display: flex;
-    align-items: center;
-    margin-left: 20%;
-    gap: 30%;
-}
+    .logo_container img {
+        height: 120%;
+    }
 
-.userMenu img {
-    height: 40px;
-}
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 30%;
+    }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.info label{
-    width: 50px;
-}
-form{
-    margin-top: 2%;
-}
-.button{
+    .navigation a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+    }
 
-    margin-top: 2%;
-}
+    .userMenu {
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+        gap: 30%;
+    }
 
-.info div {
-    display: flex;
-    gap: 2%;
-}
-form div{
-    margin-top: 10%;
-}
-.info label[for=Email] {
-    margin-right: 3%;
-}
-.info label[for=Sexo] {
-    margin-right: 6%;
-}
+    .userMenu img {
+        height: 40px;
+    }
 
-.info input[type=text] {
-    margin-left: 12%;
-    height: 10%;
-    padding: 5px;
-    background: #f1f1f1;
-}
+    /**
+  MAIN ****************************************
+   */
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-::placeholder {
-    color: gray;
-}
+    .info label {
+        width: 50px;
+    }
+
+    form {
+        margin-top: 2%;
+    }
+
+    .button {
+
+        margin-top: 2%;
+    }
+
+    .info div {
+        display: flex;
+        gap: 2%;
+    }
+
+    form div {
+        margin-top: 10%;
+    }
+
+    .info label[for=Email] {
+        margin-right: 3%;
+    }
+
+    .info label[for=Sexo] {
+        margin-right: 6%;
+    }
+
+    .info input[type=text] {
+        margin-left: 12%;
+        height: 10%;
+        padding: 5px;
+        background: #f1f1f1;
+    }
+
+    ::placeholder {
+        color: gray;
+    }
 
 
+    button {
+        background-color: red;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
 
-button {
-    background-color: red;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
+    /**
+     FOOTER ****************************************
+      */
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
 
+    .footer_section {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-}
-.footer_section{
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer_section a {
-    color: dodgerblue;
-}
-.bloquefooter input[type=text]{
-    width: 70%;
-    padding: 5px;
-    margin: 5px 0 22px 0;
-    background: #f1f1f1;
+    .footer_section a {
+        color: dodgerblue;
+    }
+
+    .bloquefooter input[type=text] {
+        width: 70%;
+        padding: 5px;
+        margin: 5px 0 22px 0;
+        background: #f1f1f1;
+    }
 }

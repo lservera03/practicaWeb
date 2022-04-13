@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
-.header{
+
+.header {
     display: flex;
     gap: 20%;
     height: 120px;
@@ -11,75 +12,90 @@
 
 }
 
-.logo_container{
+.logo_container {
     display: flex;
     align-items: center;
 
 }
-.logo_container img{
+
+.logo_container img {
     height: 120%;
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
     gap: 30%;
 
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     font-size: 20px;
     color: #000;
 }
-.userMenu{
+
+.userMenu {
     display: flex;
     align-items: center;
     margin-left: 20%;
     gap: 30%;
 }
-.userMenu img{
+
+.userMenu img {
     height: 40px;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: black;
 }
-.footer_section{
+
+.footer_section {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .footer_section a {
     color: dodgerblue;
 }
-.bloquefooter input[type=text]{
+
+.bloquefooter input[type=text] {
     width: 70%;
     padding: 5px;
     margin: 5px 0 22px 0;
     background: #f1f1f1;
 }
 
-#searcher{
+.searcher form {
+    display: flex;
+    align-items: center;
     margin-top: 3%;
     margin-left: 1%;
     width: 13%;
     height: 10%;
-    display: flex;
+    gap: 2%;
 }
 
+.searcher input[type=image] {
+    width: 13%;
+    height: 10%;
+}
 
-#friendsList{
+#friendsList {
     position: absolute;
     margin-top: 1%;
     margin-left: 1%;
     width: 25%;
     height: 55%;
+    max-height: 55%;
 }
 
-#userProfile{
+#userProfile {
     position: absolute;
     margin-top: 1%;
     margin-left: 28%;
@@ -88,7 +104,7 @@ footer{
 }
 
 
-#petitionsList{
+#petitionsList {
     position: absolute;
     margin-top: 1%;
     margin-left: 70%;
@@ -96,14 +112,53 @@ footer{
     height: 55%;
 }
 
-#searcher input[type="image"]{
-    margin-top: 1%;
-    height: 30%;
+
+main div {
+    border: solid 1px;
+}
+
+#friendsList ul {
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#friendsList li {
+    width: 99%;
+    align-items: center;
+    display: flex;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+#friendsList li img {
     width: 20%;
-    margin-left: 3%;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.selected {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 110%;
 }
 
 
-main div{
-    border: solid 1px;
+#userInfo{
+    align-items: center;
+    display: flex;
+    border: none;
+}
+
+#userInfo img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+#userInfo p{
+    width: 50%;
+    padding-left: 5%;
+    font-size: 180%;
 }

@@ -82,7 +82,7 @@ MAIN ****************************************
     width: 70%;
 }
 
-.all_event {
+.liste_vents {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
@@ -91,13 +91,18 @@ MAIN ****************************************
     border: black solid 1px;
 }
 
+.liste_vents h2 {
+    border: black solid 1px;
 
-.all_event ul{
+}
+
+.liste_vents ul {
     list-style: none;
     overflow: auto;
     max-height: 400px;
 }
-.all_event li{
+
+.liste_vents li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,12 +112,15 @@ MAIN ****************************************
 
 }
 
+.info_event {
+    display: none;
+}
 
 /**
    FOOTER ****************************************
     */
 footer {
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: black;
 }
 
@@ -121,7 +129,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 20%;
 }
 
 .footer_section a {
@@ -189,89 +196,58 @@ footer {
     MAIN ****************************************
     */
     .top_events {
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+        gap: 2%;
         margin-top: 2%;
+        margin-right: 1%;
+        margin-left: 2%;
+        justify-content: space-between;
+    }
+    .main  {
+        display: flex;
+
+    }
+
+    .liste_vents {
+        margin-top: 2%;
+        width: 30%;
+        min-height: 500px;
+    }
+
+    .liste_vents ul {
+        min-height: 500px;
+    }
+
+    .select_order_events {
+        margin-right: 60%;
     }
 
     .searcher form {
+        width: 150%;
+    }
+
+    .info_event {
         display: flex;
-        align-items: center;
-        float: right;
-        margin-right: 15%;
-        gap: 2%;
-    }
-
-    .add {
-        display: flex;
-        margin-left: 2%;
-
-    }
-
-    .add img {
-        height: 30px;
-    }
-
-    .add .select_order_events {
-        margin-left: 10%;
-    }
-
-    .searcher input[type=image] {
-        height: 30px;
-    }
-
-    .searcher input[type=text] {
-        height: 20px;
-    }
-
-    .all_event .lista {
-        border: 1px solid black;
-        position: absolute;
-        text-align: center;
-        margin-top: 1%;
-        margin-left: 1%;
-        width: 25%;
-        min-height: 60%;
-        max-height: max-content;
-    }
-
-    .all_event .more_info {
-        position: absolute;
-        text-align: center;
-        margin-top: 1%;
-        margin-left: 27%;
-        width: 72%;
-        min-height: 60%;
-        max-height: max-content;
-        border: 1px solid black;
-    }
-
-    .event {
-        border: 1px solid black;
-        width: 95%;
         margin-top: 2%;
-        margin-left: 2%;
-        float: left;
+        border: black solid 1px;
+        width: 65%;
+        justify-content: space-between;
+    }
+    .info_event h2{
+       margin-left: 700%;
+    }
+    .info_event img{
+        max-width: 20px;
+        height: 30px;
+    }
+    .icon_events{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20%;
+        align-items: end;
+        margin-right: 2%;
+        margin-bottom: 2%;
     }
 
-    .more_info img {
-        height: 7%;
-        width: 2.5%;
-        position: absolute;
-        bottom: 1%;
-        right: 1%;
-    }
-
-    .more_info .button {
-        height: 7%;
-        width: 5%;
-        position: absolute;
-        bottom: 1%;
-        right: 5%;
-        background-color: #04AA6D;
-    }
 
     /**
  FOOTER ****************************************

@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/**
+HEADER ****************************************
+ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+.menu_phone {
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.userMenu img {
+    height: 40px;
+}
+.userMenu {
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+
+.logo_container {
+    display:none;
+}
+.userMenu .logout{
+    display: none;
+}
+.navigation div{
+    display: none;
+}
+
+
+/**
+ MAIN ****************************************
+  */
+main{
+    height: 400px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.container .firstp {
+    margin-top: 2%;
+}
+
+main img {
+    height: 200px;
+    width: 140px;
+}
+.container{
+    margin-top: 15%;
+}
+.container input[type=text], input[type=password] , input[type=date] {
+    margin-top: 5%;
+    padding: 12px;
+    background: #f1f1f1;
+}
+
+
+.create_event {
+    background-color: #04AA6D;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+/**
+FOOTER ****************************************
+*/
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.footer_section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer_section a {
+    color: dodgerblue;
+}
+
+.bloquefooter input[type=text] {
+    width: 30%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}

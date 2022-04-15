@@ -32,7 +32,7 @@ main img {
     color: dodgerblue;
 }
 
-.registerbtn {
+.create_event {
     background-color: #04AA6D;
     color: white;
     margin: 8px 0;
@@ -101,7 +101,7 @@ footer {
     }
 
 
-    .registerbtn {
+    .create_event {
         background-color: #04AA6D;
         color: white;
         padding: 12px 20px;

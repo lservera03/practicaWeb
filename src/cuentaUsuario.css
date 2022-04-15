@@ -141,10 +141,10 @@ footer {
         display: none;
     }
     .navigation div{
-        display: block;
+        display: flex;
     }
     .userMenu .logout{
-        display: block;
+        display: flex;
     }
 
     .logo_container {

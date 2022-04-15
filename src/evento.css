@@ -112,7 +112,7 @@ MAIN ****************************************
 
 }
 
-.info_event {
+.event {
     display: none;
 }
 
@@ -225,17 +225,17 @@ footer {
         width: 150%;
     }
 
-    .info_event {
+    .event {
         display: flex;
         margin-top: 2%;
         border: black solid 1px;
         width: 65%;
         justify-content: space-between;
     }
-    .info_event h2{
+    .event h2{
        margin-left: 700%;
     }
-    .info_event img{
+    .icon_events img{
         max-width: 20px;
         height: 30px;
     }

@@ -12,6 +12,7 @@ HEADER ****************************************
     justify-content: space-between;
     background-color: darkgray;
 }
+
 .menu_phone {
     font-size: 40px;
     margin-left: 5%;
@@ -21,6 +22,7 @@ HEADER ****************************************
 .userMenu img {
     height: 40px;
 }
+
 .userMenu {
     margin-right: 5%;
     margin-top: 2%;
@@ -28,15 +30,16 @@ HEADER ****************************************
 
 
 .logo_container {
-    display:none;
-}
-.userMenu .logout{
-    display: none;
-}
-.navigation div{
     display: none;
 }
 
+.userMenu .logout {
+    display: none;
+}
+
+.navigation div {
+    display: none;
+}
 
 
 /**
@@ -58,12 +61,16 @@ form {
 
 .button {
 
-    margin-top: 2%;
+    margin-top: 7%;
 }
 
 .info div {
     display: flex;
     gap: 2%;
+}
+
+form {
+    margin-top: 10%;
 }
 
 form div {
@@ -104,7 +111,7 @@ button {
 FOOTER ****************************************
  */
 footer {
-    margin-top: 10%;
+    margin-top: 45%;
     background-color: black;
 }
 
@@ -131,7 +138,7 @@ footer {
    HEADER ****************************************
     */
     .header {
-       display: flex;
+        display: flex;
         gap: 10%;
         height: 120px;
     }
@@ -139,10 +146,12 @@ footer {
     .menu_phone {
         display: none;
     }
-    .navigation div{
+
+    .navigation div {
         display: flex;
     }
-    .userMenu .logout{
+
+    .userMenu .logout {
         display: flex;
     }
 
@@ -238,6 +247,7 @@ footer {
       */
     footer {
         bottom: 0;
+        margin-top: 14%;
         width: 100%;
         background-color: black;
     }

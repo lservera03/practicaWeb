@@ -6,8 +6,9 @@
   "scripts": {
     "prestart": "del-cli dist/*",
     "html-minifier": "html-minifier --input-dir src --output-dir dist --file-ext html --remove-comments --collapse-whitespace --minify-js true --minify-css true",
-    "build": "copyfiles -u 1 src/css/*.css dist && copyfiles  -u 1 src/html/*.html dist && copyfiles  -u 1 src/media/*.png dist && copyfiles  -u 1 src/media/*.jpg dist",
-    "start": "npm run prestart && npm run build && npm run html-minifier && node app.js",
+    "css-minifier": "css-minify -d src/css -o dist/css && renamer --find .min.css --replace  .css dist/css/*" ,
+    "build": " copyfiles  -u 1 src/html/*.html dist && copyfiles  -u 1 src/media/*.png dist && copyfiles  -u 1 src/media/*.jpg dist",
+    "start": "npm run prestart && npm run build && npm run html-minifier && npm run css-minifier && node app.js",
     "watch": "nodemon",
     "browser-reload": "browser-sync start --proxy \"localhost:3000\" --files dist/*"
   },

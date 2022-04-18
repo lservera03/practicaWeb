@@ -3,3 +3,8 @@ Use Git bash terminal
 first terminal:  npm run watch
 
 second terminal:  npm run browser-reload
+
+
+npm install --global renamer
+
+npm install css-minify -g

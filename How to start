@@ -8,3 +8,5 @@ second terminal:  npm run browser-reload
 npm install --global renamer
 
 npm install css-minify -g
+
+npm install --save-dev del-cli

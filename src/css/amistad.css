@@ -1,0 +1,407 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.logo_container {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
+#logout {
+    display: none;
+}
+
+.menu_phone {
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.userMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    gap: 30%;
+}
+
+.userMenu img {
+    height: 40px;
+}
+
+footer {
+    margin-top: 180%;
+    width: 100%;
+    background-color: black;
+}
+
+.footer_section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_section a {
+    color: dodgerblue;
+}
+
+.bloquefooter input[type=text] {
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+
+.searcher form {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 13%;
+    height: 10%;
+    gap: 2%;
+}
+
+.searcher input[type=image] {
+    width: 13%;
+    height: 10%;
+}
+
+#friendsList {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+    max-height: 25%;
+}
+
+#userProfile {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 1%;
+    width: 98%;
+    height: 30%;
+}
+
+
+#petitionsList {
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 1%;
+    width: 98%;
+    height: 25%;
+    max-height: 25%;
+}
+
+
+main div {
+    border: solid 1px;
+}
+
+#friendsList ul {
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#friendsList li {
+    width: 99%;
+    align-items: center;
+    display: flex;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+#friendsList li img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.selected {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 110%;
+}
+
+
+#userInfo {
+    align-items: center;
+    display: flex;
+    border: none;
+}
+
+#userInfo img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+#userInfo p {
+    width: 50%;
+    padding-left: 5%;
+    font-size: 180%;
+}
+
+#petitionsList ul {
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#petitionsList li {
+    width: 98%;
+    height: 15%;
+    align-items: center;
+    border: black solid 1px;
+    display: flex;
+    padding: 2%;
+}
+
+#petitionsList p {
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 24%;
+    font-size: 125%;
+    width: 60%;
+    cursor: pointer;
+}
+
+#petitionsList li button {
+    width: 15%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+#petitionsList li button img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    #logout{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_phone{
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        gap: 20%;
+        height: 120px;
+        background-color: darkgray;
+        width: 100%;
+
+    }
+
+    .logo_container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logo_container img {
+        height: 120%;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 30%;
+
+    }
+
+    .navigation a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .userMenu {
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+        gap: 30%;
+    }
+
+    .userMenu img {
+        height: 40px;
+    }
+
+    footer {
+        margin-top: 35%;
+        width: 100%;
+        background-color: black;
+    }
+
+    .footer_section {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0%;
+    }
+
+    .footer_section a {
+        color: dodgerblue;
+    }
+
+    .bloquefooter input[type=text] {
+        width: 70%;
+        padding: 5px;
+        margin: 5px 0 22px 0;
+        background: #f1f1f1;
+    }
+
+    .searcher form {
+        display: flex;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: 1%;
+        width: 13%;
+        height: 10%;
+        gap: 2%;
+    }
+
+    .searcher input[type=image] {
+        width: 13%;
+        height: 10%;
+    }
+
+    #friendsList {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 25%;
+        height: 55%;
+        max-height: 55%;
+    }
+
+    #userProfile {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 28%;
+        width: 40%;
+        height: 55%;
+        max-height: 55%;
+    }
+
+
+    #petitionsList {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 70%;
+        width: 30%;
+        height: 55%;
+        max-height: 55%;
+    }
+
+
+    main div {
+        border: solid 1px;
+    }
+
+    #friendsList ul {
+        list-style: none;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    #friendsList li {
+        width: 99%;
+        align-items: center;
+        display: flex;
+        border: black solid 1px;
+        cursor: pointer;
+    }
+
+    #friendsList li img {
+        width: 20%;
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    .selected {
+        background-color: deepskyblue;
+        color: white;
+        font-size: 110%;
+    }
+
+
+    #userInfo {
+        align-items: center;
+        display: flex;
+        border: none;
+    }
+
+    #userInfo img {
+        width: 20%;
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    #userInfo p {
+        width: 50%;
+        padding-left: 5%;
+        font-size: 180%;
+    }
+
+    #petitionsList ul {
+        list-style: none;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    #petitionsList li {
+        width: 95%;
+        height: 15%;
+        align-items: center;
+        display: flex;
+    }
+
+    #petitionsList p {
+        padding: 3%;
+        margin-left: 5%;
+        margin-right: 24%;
+        font-size: 125%;
+        width: 30%;
+        cursor: pointer;
+    }
+
+    #petitionsList li button {
+        width: 15%;
+        margin-left: 2%;
+    }
+
+    #petitionsList li button img {
+        width: 100%;
+    }
+}

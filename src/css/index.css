@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.footer_section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_section a {
+    color: dodgerblue;
+}
+
+.bloquefooter input[type=text] {
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+
+
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+}
+
+
+#loginForm {
+    margin-left: 30%;
+    margin-top: 12%;
+}
+
+#loginForm input {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    display: block;
+}
+
+#loginForm input[type="submit"] {
+    width: 25%;
+    padding: 15px;
+    margin: 15px 0 20px 45px;
+    background: deepskyblue;
+    display: block;
+    color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+
+#loginText {
+    margin-top: 4%;
+    margin-left: 37%;
+}
+
+#createText {
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    .footer_section {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_section a {
+        color: dodgerblue;
+    }
+
+    .bloquefooter input[type=text] {
+        width: 70%;
+        padding: 5px;
+        margin: 5px 0 22px 0;
+        background: #f1f1f1;
+    }
+
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        margin-left: 43%;
+
+    }
+
+
+    #loginForm {
+        margin-left: 43%;
+        margin-top: 3%;
+    }
+
+    #loginForm input {
+        width: 25%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        background: #f1f1f1;
+        display: block;
+    }
+
+    #loginForm input[type="submit"] {
+        width: 20%;
+        padding: 15px;
+        margin: 10px 0 22px 45px;
+        background: deepskyblue;
+        display: block;
+        color: #f1f1f1;
+        border: none;
+        cursor: pointer;
+    }
+
+    #loginText {
+        margin-top: 2%;
+        margin-left: 47%;
+    }
+
+    #createText {
+        margin-top: 2%;
+        margin-left: 43%;
+    }
+}
